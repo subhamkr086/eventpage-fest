@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Page</title>
+    <link rel="stylesheet" href="EventPageStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="https://kit.fontawesome.com/564528bf08.js" crossorigin="anonymous"></script>    
+
+</head>
+<body>
+    
+  <!-- Navbar start -->
+  <header>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo-container">
+                <img src="logo_horizon.png" class="logo" alt="">
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <li><a href="https://horizon2k24.vercel.app/#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Guest</a></li>
+                    <li><a href="#">Coordinators</a></li>
+                    
+                </ul>
+                <div class="toggle-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown-menu">
+            <li><a href="https://horizon2k24.vercel.app/#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Guest</a></li>
+            <li><a href="/ProfilePage.html">Coordinators</a></li>
+          
+        </div>
+    </div>
+  </header>
+  <!-- Navbar end -->
+
+
+    <div class="main-wrapper">
+      <div class="second-wrapper" style="background-color: rgba(0, 0, 0, 0.432); padding-bottom:90px">
+        <div class="heading">
+          Events
+        </div>
+        <div class="grid-container">
+            
+          <!-- event 1 -->
+          <div class="box glowing">
+                <article class="card">
+                    <img
+                      class="card__background"
+                      src="https://picsum.photos/id/760/350/490";
+                      alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                    />
+                    <div class="card__content | flow">
+                      <div class="card__content--container | flow">
+                        <h2 class="card__title">Techackatron</h2>
+                        <p class="card__description">
+                          Present your technical and innovative ideas
+                        </p>
+                      </div>
+                      <button class="card__button">Read more</button>
+                    </div>
+        
+                    <div class="card__back">
+                        <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                        <!-- Content for the back of the card -->
+                        <div class="event">
+                            <h2>Event Heading</h2>
+                            <div class="details">
+                              <p>Date: January 1, 2024</p>
+                              <p>Time: 10:00 AM - 5:00 PM</p>
+                              <p>Venue: Event Venue</p>
+                            </div>
+                            <div style="margin: 20px;">
+                              <p style="font-size: x-large;">Teacher coordinator</p>
+                              <p class="">Teacher1</p>
+                              <p class="">Teacher2</p>
+                            </div>
+                            <div>
+                              <p style="font-size: x-large;">Student coordinator</p>
+                              <p class="">Student1 (phone no)</p>
+                              <p class="">Student2 (phone no)</p>
+                            </div>
+                            <div>
+                                <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                              </div>
+                          </div>
+                    </div>
+                </article>
+          </div>
+
+          <!-- event2 -->
+          <div class="box glowing">
+                <article class="card">
+                    <img
+                      class="card__background"
+                      src="https://picsum.photos/id/965/350/490";
+                      alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                    />
+                    <div class="card__content | flow">
+                      <div class="card__content--container | flow">
+                        <h2 class="card__title">Flashextempo</h2>
+                        <p class="card__description">
+                          Technical extempo contest of small duration                      
+                        </p>
+                      </div>
+                      <button class="card__button">Read more</button>
+                    </div>
+        
+                    <div class="card__back">
+                      <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                      <!-- Content for the back of the card -->
+                        <div class="event">
+                            <h2>Event Heading</h2>
+                            <div class="details">
+                              <p>Date: January 1, 2024</p>
+                              <p>Time: 10:00 AM - 5:00 PM</p>
+                              <p>Venue: Event Venue</p>
+                            </div>
+                            <div style="margin: 20px;">
+                              <p style="font-size: x-large;">Teacher coordinator</p>
+                              <p class="">Teacher1</p>
+                              <p class="">Teacher2</p>
+                            </div>
+                            <div>
+                              <p style="font-size: x-large;">Student coordinator</p>
+                              <p class="">Student1 (phone no)</p>
+                              <p class="">Student2 (phone no)</p>
+                            </div>
+                            <div>
+                                <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                              </div>
+                          </div>
+                    </div>
+                </article>
+          </div>
+  
+          <!-- event3 -->
+          <div class="box glowing">
+                <article class="card">
+                    <img
+                      class="card__background"
+                      src="Poster/on spot quiz.png";
+                      alt="on spot quiz poster"
+                    />
+                    <div class="card__content | flow">
+                      <div class="card__content--container | flow">
+                        <h2 class="card__title">Onspotquiz</h2>
+                        <p class="card__description">
+                          A sudden gathering and quiz competition
+                        </p>
+                      </div>
+                      <button class="card__button">Read more</button>
+                    </div>
+        
+                    <div class="card__back">
+                      <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                        <!-- Content for the back of the card -->
+                        <div class="event">
+                            <h2>Event Heading</h2>
+                            <div class="details">
+                              <p>Date: January 1, 2024</p>
+                              <p>Time: 10:00 AM - 5:00 PM</p>
+                              <p>Venue: Event Venue</p>
+                            </div>
+                            <div style="margin: 20px;">
+                              <p style="font-size: x-large;">Teacher coordinator</p>
+                              <p class="">Teacher1</p>
+                              <p class="">Teacher2</p>
+                            </div>
+                            <div>
+                              <p style="font-size: x-large;">Student coordinator</p>
+                              <p class="">Student1 (phone no)</p>
+                              <p class="">Student2 (phone no)</p>
+                            </div>
+                            <div>
+                                <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                              </div>
+                          </div>
+                    </div>
+                </article>
+          </div>
+  
+  
+          <!-- event 4 -->
+          <div class="box glowing">
+                <article class="card">
+                    <img
+                      class="card__background"
+                      src="https://picsum.photos/id/960/350/490";
+                      alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                    />
+                    <div class="card__content | flow">
+                      <div class="card__content--container | flow">
+                        <h2 class="card__title">CineTrix</h2>
+                        <p class="card__description">
+                          Short film making and animation film making contest  
+                        </p>
+                      </div>
+                      <button class="card__button">Read more</button>
+                    </div>
+        
+                    <div class="card__back">
+                      <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                        <!-- Content for the back of the card -->
+                        <div class="event">
+                            <h2>Event Heading</h2>
+                            <div class="details">
+                              <p>Date: January 1, 2024</p>
+                              <p>Time: 10:00 AM - 5:00 PM</p>
+                              <p>Venue: Event Venue</p>
+                            </div>
+                            <div style="margin: 20px;">
+                              <p style="font-size: x-large;">Teacher coordinator</p>
+                              <p class="">Teacher1</p>
+                              <p class="">Teacher2</p>
+                            </div>
+                            <div>
+                              <p style="font-size: x-large;">Student coordinator</p>
+                              <p class="">Student1 (phone no)</p>
+                              <p class="">Student2 (phone no)</p>
+                            </div>
+                            <div>
+                                <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                              </div>
+                          </div>
+                    </div>
+                </article>
+          </div>
+  
+          <!-- event5 -->
+          <div class="box glowing">
+                <article class="card">
+                    <img
+                      class="card__background"
+                      src="https://picsum.photos/id/277/350/490";
+                      alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                    />
+                    <div class="card__content | flow">
+                      <div class="card__content--container | flow">
+                        <h2 class="card__title">Photography</h2>
+                        <p class="card__description">
+                          Capturing moments, emotions, beauty , immortalizing stories in frames.
+                        </p>
+                      </div>
+                      <button class="card__button">Read more</button>
+                    </div>
+        
+                    <div class="card__back">
+                      <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                        <!-- Content for the back of the card -->
+                        <div class="event">
+                            <h2>Event Heading</h2>
+                            <div class="details">
+                              <p>Date: January 1, 2024</p>
+                              <p>Time: 10:00 AM - 5:00 PM</p>
+                              <p>Venue: Event Venue</p>
+                            </div>
+                            <div style="margin: 20px;">
+                              <p style="font-size: x-large;">Teacher coordinator</p>
+                              <p class="">Teacher1</p>
+                              <p class="">Teacher2</p>
+                            </div>
+                            <div>
+                              <p style="font-size: x-large;">Student coordinator</p>
+                              <p class="">Student1 (phone no)</p>
+                              <p class="">Student2 (phone no)</p>
+                            </div>
+                            <div>
+                                <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                              </div>
+                          </div>
+                    </div>
+                </article>
+          </div>
+  
+          <!-- event6 -->
+          <div class="box glowing">
+              <article class="card">
+                  <img
+                    class="card__background"
+                    src="https://picsum.photos/id/704/200/300";
+                    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                  />
+                  <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                      <h2 class="card__title" style="font-size: 32px;">Game of thrones</h2>
+                      <p class="card__description">
+                        Contest is totally based on gaming skills
+                      </p>
+                    </div>
+                    <button class="card__button">Read more</button>
+                  </div>
+      
+                  <div class="card__back">
+                    <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                      <!-- Content for the back of the card -->
+                      <div class="event">
+                          <h2>Event Heading</h2>
+                          <div class="details">
+                            <p>Date: January 1, 2024</p>
+                            <p>Time: 10:00 AM - 5:00 PM</p>
+                            <p>Venue: Event Venue</p>
+                          </div>
+                          <div style="margin: 20px;">
+                            <p style="font-size: x-large;">Teacher coordinator</p>
+                            <p class="">Teacher1</p>
+                            <p class="">Teacher2</p>
+                          </div>
+                          <div>
+                            <p style="font-size: x-large;">Student coordinator</p>
+                            <p class="">Student1 (phone no)</p>
+                            <p class="">Student2 (phone no)</p>
+                          </div>
+                          <div>
+                              <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                            </div>
+                        </div>
+                  </div>
+              </article>
+          </div>
+  
+          <!-- event7 -->
+          <div class="box glowing">
+              <article class="card">
+                  <img
+                    class="card__background"
+                    src="https://picsum.photos/id/104/200/300";
+                    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                  />
+                  <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                      <h2 class="card__title">Papyrus</h2>
+                      <p class="card__description">
+                        Conveying your idea with Technical paper
+                      </p>
+                    </div>
+                    <button class="card__button">Read more</button>
+                  </div>
+      
+                  <div class="card__back">
+                    <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                    <!-- Content for the back of the card -->
+                      <div class="event">
+                          <h2>Event Heading</h2>
+                          <div class="details">
+                            <p>Date: January 1, 2024</p>
+                            <p>Time: 10:00 AM - 5:00 PM</p>
+                            <p>Venue: Event Venue</p>
+                          </div>
+                          <div style="margin: 20px;">
+                            <p style="font-size: x-large;">Teacher coordinator</p>
+                            <p class="">Teacher1</p>
+                            <p class="">Teacher2</p>
+                          </div>
+                          <div>
+                            <p style="font-size: x-large;">Student coordinator</p>
+                            <p class="">Student1 (phone no)</p>
+                            <p class="">Student2 (phone no)</p>
+                          </div>
+                          <div>
+                              <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                            </div>
+                        </div>
+                  </div>
+              </article>
+          </div>
+  
+          <!-- event8 -->
+          <div class="box glowing">
+              <article class="card">
+                  <img
+                    class="card__background"
+                    src="https://picsum.photos/id/203/350/490";
+                    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                  />
+                  <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                      <h2 class="card__title">Techmodels</h2>
+                      <p class="card__description">
+                        Utilizing a structured approach to articulate complex technical concepts
+                      </p>
+                    </div>
+                    <button class="card__button">Read more</button>
+                  </div>
+      
+                  <div class="card__back">
+                    <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                      <!-- Content for the back of the card -->
+                      <div class="event">
+                          <h2>Event Heading</h2>
+                          <div class="details">
+                            <p>Date: January 1, 2024</p>
+                            <p>Time: 10:00 AM - 5:00 PM</p>
+                            <p>Venue: Event Venue</p>
+                          </div>
+                          <div style="margin: 20px;">
+                            <p style="font-size: x-large;">Teacher coordinator</p>
+                            <p class="">Teacher1</p>
+                            <p class="">Teacher2</p>
+                          </div>
+                          <div>
+                            <p style="font-size: x-large;">Student coordinator</p>
+                            <p class="">Student1 (phone no)</p>
+                            <p class="">Student2 (phone no)</p>
+                          </div>
+                          <div>
+                              <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                            </div>
+                        </div>
+                  </div>
+              </article>
+          </div>
+  
+          <!-- events9 -->
+          <div class="box glowing">
+              <article class="card">
+                  <img
+                    class="card__background"
+                    src="Poster/business model canvas.jpg";
+                    alt="Business model canvas"
+                  />
+                  <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                      <h2 class="card__title" style="font-size: 30px;">Business Model Canvas</h2>
+                      <p class="card__description">
+                        Aims to bring any business or startup plans/concepts
+                      </p>
+                    </div>
+                    <button class="card__button">Read more</button>
+                  </div>
+      
+                  <div class="card__back">
+                    <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                    <!-- Content for the back of the card -->
+                      <div class="event">
+                          <h2>Event Heading</h2>
+                          <div class="details">
+                            <p>Date: January 1, 2024</p>
+                            <p>Time: 10:00 AM - 5:00 PM</p>
+                            <p>Venue: Event Venue</p>
+                          </div>
+                          <div style="margin: 20px;">
+                            <p style="font-size: x-large;">Teacher coordinator</p>
+                            <p class="">Teacher1</p>
+                            <p class="">Teacher2</p>
+                          </div>
+                          <div>
+                            <p style="font-size: x-large;">Student coordinator</p>
+                            <p class="">Student1 (phone no)</p>
+                            <p class="">Student2 (phone no)</p>
+                          </div>
+                          <div>
+                              <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                            </div>
+                        </div>
+                  </div>
+              </article>
+          </div>
+
+          <!-- events10 -->
+          <div class="box glowing">
+            <article class="card">
+                <img
+                  class="card__background"
+                  src="Poster/ROBOTRIX.png";
+                  alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title">RoboTrix</h2>
+                    <p class="card__description">
+                      Fusion of robotics and technology, shaping futuristic innovations
+                    </p>
+                  </div>
+                  <button class="card__button">Read more</button>
+                </div>
+    
+                <div class="card__back">
+                  <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                  <!-- Content for the back of the card -->
+                    <div class="event">
+                        <h2>Event Heading</h2>
+                        <div class="details">
+                          <p>Date: January 1, 2024</p>
+                          <p>Time: 10:00 AM - 5:00 PM</p>
+                          <p>Venue: Event Venue</p>
+                        </div>
+                        <div style="margin: 20px;">
+                          <p style="font-size: x-large;">Teacher coordinator</p>
+                          <p class="">Teacher1</p>
+                          <p class="">Teacher2</p>
+                        </div>
+                        <div>
+                          <p style="font-size: x-large;">Student coordinator</p>
+                          <p class="">Student1 (phone no)</p>
+                          <p class="">Student2 (phone no)</p>
+                        </div>
+                        <div>
+                            <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                          </div>
+                      </div>
+                </div>
+            </article>
+          </div>
+
+          <!-- events11 -->
+          <div class="box glowing">
+            <article class="card">
+                <img
+                  class="card__background"
+                  src="Poster/technovation.png";
+                  alt="technovation poster"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title">Technovation</h2>
+                    <p class="card__description">
+                      Communicate technical information through Poster Presentation
+                    </p>
+                  </div>
+                  <button class="card__button">Read more</button>
+                </div>
+    
+                <div class="card__back">
+                  <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                  <!-- Content for the back of the card -->
+                    <div class="event">
+                        <h2>Event Heading</h2>
+                        <div class="details">
+                          <p>Date: January 1, 2024</p>
+                          <p>Time: 10:00 AM - 5:00 PM</p>
+                          <p>Venue: Event Venue</p>
+                        </div>
+                        <div style="margin: 20px;">
+                          <p style="font-size: x-large;">Teacher coordinator</p>
+                          <p class="">Teacher1</p>
+                          <p class="">Teacher2</p>
+                        </div>
+                        <div>
+                          <p style="font-size: x-large;">Student coordinator</p>
+                          <p class="">Student1 (phone no)</p>
+                          <p class="">Student2 (phone no)</p>
+                        </div>
+                        <div>
+                            <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                          </div>
+                      </div>
+                </div>
+            </article>
+          </div>
+
+          <!-- events12 -->
+          <div class="box glowing">
+            <article class="card">
+                <img
+                  class="card__background"
+                  src="Poster/tricky ckt.png";
+                  alt="Tricky Circuits poster"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title">Tricky Circuits</h2>
+                    <p class="card__description">
+                      Understanding connections, currents, and components to power technology
+                    </p>
+                  </div>
+                  <button class="card__button">Read more</button>
+                </div>
+    
+                <div class="card__back">
+                  <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                  <!-- Content for the back of the card -->
+                    <div class="event">
+                        <h2>Event Heading</h2>
+                        <div class="details">
+                          <p>Date: January 1, 2024</p>
+                          <p>Time: 10:00 AM - 5:00 PM</p>
+                          <p>Venue: Event Venue</p>
+                        </div>
+                        <div style="margin: 20px;">
+                          <p style="font-size: x-large;">Teacher coordinator</p>
+                          <p class="">Teacher1</p>
+                          <p class="">Teacher2</p>
+                        </div>
+                        <div>
+                          <p style="font-size: x-large;">Student coordinator</p>
+                          <p class="">Student1 (phone no)</p>
+                          <p class="">Student2 (phone no)</p>
+                        </div>
+                        <div>
+                            <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                          </div>
+                      </div>
+                </div>
+            </article>
+          </div>
+          
+          <!-- events13 -->
+          <div class="box glowing">
+            <article class="card">
+                <img
+                  class="card__background"
+                  src="https://picsum.photos/id/881/350/490";
+                  alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title">TECH-IDEA</h2>
+                    <p class="card__description">
+                      Crafting innovation to convey technical concepts through Poster
+                    </p>
+                  </div>
+                  <button class="card__button">Read more</button>
+                </div>
+    
+                <div class="card__back">
+                  <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                  <!-- Content for the back of the card -->
+                    <div class="event">
+                        <h2>Event Heading</h2>
+                        <div class="details">
+                          <p>Date: January 1, 2024</p>
+                          <p>Time: 10:00 AM - 5:00 PM</p>
+                          <p>Venue: Event Venue</p>
+                        </div>
+                        <div style="margin: 20px;">
+                          <p style="font-size: x-large;">Teacher coordinator</p>
+                          <p class="">Teacher1</p>
+                          <p class="">Teacher2</p>
+                        </div>
+                        <div>
+                          <p style="font-size: x-large;">Student coordinator</p>
+                          <p class="">Student1 (phone no)</p>
+                          <p class="">Student2 (phone no)</p>
+                        </div>
+                        <div>
+                            <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                          </div>
+                      </div>
+                </div>
+            </article>
+          </div>
+
+          <!-- events14 -->
+          <div class="box glowing">
+            <article class="card">
+                <img
+                  class="card__background"
+                  src="https://picsum.photos/id/861/350/490";
+                  alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title">CircuiTrix</h2>
+                    <p class="card__description">
+                      Locate absent parts, complete the puzzle, solve technical challenges.
+                    </p>
+                  </div>
+                  <button class="card__button">Read more</button>
+                </div>
+    
+                <div class="card__back">
+                  <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                  <!-- Content for the back of the card -->
+                    <div class="event">
+                        <h2>Event Heading</h2>
+                        <div class="details">
+                          <p>Date: January 1, 2024</p>
+                          <p>Time: 10:00 AM - 5:00 PM</p>
+                          <p>Venue: Event Venue</p>
+                        </div>
+                        <div style="margin: 20px;">
+                          <p style="font-size: x-large;">Teacher coordinator</p>
+                          <p class="">Teacher1</p>
+                          <p class="">Teacher2</p>
+                        </div>
+                        <div>
+                          <p style="font-size: x-large;">Student coordinator</p>
+                          <p class="">Student1 (phone no)</p>
+                          <p class="">Student2 (phone no)</p>
+                        </div>
+                        <div>
+                            <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                          </div>
+                      </div>
+                </div>
+            </article>
+          </div>
+
+          <!-- events15 -->
+          <div class="box glowing">
+            <article class="card">
+                <img
+                  class="card__background"
+                  src="https://picsum.photos/id/661/350/490";
+                  alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title">Embeded-IT</h2>
+                    <p class="card__description">
+                      Coding hurdles in microprocessor and microcontroller-based systems
+                    </p>
+                  </div>
+                  <button class="card__button">Read more</button>
+                </div>
+    
+                <div class="card__back">
+                  <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                  <!-- Content for the back of the card -->
+                    <div class="event">
+                        <h2>Event Heading</h2>
+                        <div class="details">
+                          <p>Date: January 1, 2024</p>
+                          <p>Time: 10:00 AM - 5:00 PM</p>
+                          <p>Venue: Event Venue</p>
+                        </div>
+                        <div style="margin: 20px;">
+                          <p style="font-size: x-large;">Teacher coordinator</p>
+                          <p class="">Teacher1</p>
+                          <p class="">Teacher2</p>
+                        </div>
+                        <div>
+                          <p style="font-size: x-large;">Student coordinator</p>
+                          <p class="">Student1 (phone no)</p>
+                          <p class="">Student2 (phone no)</p>
+                        </div>
+                        <div>
+                            <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                          </div>
+                      </div>
+                </div>
+            </article>
+          </div>
+            
+          <!-- events16 -->
+          <div class="box glowing">
+            <article class="card">
+                <img
+                  class="card__background"
+                  src="https://picsum.photos/id/261/350/490";
+                  alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title">Devcon</h2>
+                    <p class="card__description">
+                      Showcase UI/UX design interface for web or mobile application
+                    </p>
+                  </div>
+                  <button class="card__button">Read more</button>
+                </div>
+    
+                <div class="card__back">
+                  <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                  <!-- Content for the back of the card -->
+                    <div class="event">
+                        <h2>Event Heading</h2>
+                        <div class="details">
+                          <p>Date: January 1, 2024</p>
+                          <p>Time: 10:00 AM - 5:00 PM</p>
+                          <p>Venue: Event Venue</p>
+                        </div>
+                        <div style="margin: 20px;">
+                          <p style="font-size: x-large;">Teacher coordinator</p>
+                          <p class="">Teacher1</p>
+                          <p class="">Teacher2</p>
+                        </div>
+                        <div>
+                          <p style="font-size: x-large;">Student coordinator</p>
+                          <p class="">Student1 (phone no)</p>
+                          <p class="">Student2 (phone no)</p>
+                        </div>
+                        <div>
+                            <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                          </div>
+                      </div>
+                </div>
+            </article>
+          </div>
+
+          <!-- events17 -->
+          <div class="box glowing">
+            <article class="card">
+                <img
+                  class="card__background"
+                  src="https://picsum.photos/id/151/350/490";
+                  alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title">Web-D</h2>
+                    <p class="card__description">
+                      Showcasing creativity through captivating web designs competitively.
+                    </p>
+                  </div>
+                  <button class="card__button">Read more</button>
+                </div>
+    
+                <div class="card__back">
+                  <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                  <!-- Content for the back of the card -->
+                    <div class="event">
+                        <h2>Event Heading</h2>
+                        <div class="details">
+                          <p>Date: January 1, 2024</p>
+                          <p>Time: 10:00 AM - 5:00 PM</p>
+                          <p>Venue: Event Venue</p>
+                        </div>
+                        <div style="margin: 20px;">
+                          <p style="font-size: x-large;">Teacher coordinator</p>
+                          <p class="">Teacher1</p>
+                          <p class="">Teacher2</p>
+                        </div>
+                        <div>
+                          <p style="font-size: x-large;">Student coordinator</p>
+                          <p class="">Student1 (phone no)</p>
+                          <p class="">Student2 (phone no)</p>
+                        </div>
+                        <div>
+                            <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                          </div>
+                      </div>
+                </div>
+            </article>
+          </div>
+
+          <!-- events18 -->
+          <div class="box glowing">
+            <article class="card">
+                <img
+                  class="card__background"
+                  src="https://picsum.photos/id/501/350/490";
+                  alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title">WannaCode</h2>
+                    <p class="card__description">
+                      Coding competition of fastest and least backspace.
+                    </p>
+                  </div>
+                  <button class="card__button">Read more</button>
+                </div>
+    
+                <div class="card__back">
+                  <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                  <!-- Content for the back of the card -->
+                    <div class="event">
+                        <h2>Event Heading</h2>
+                        <div class="details">
+                          <p>Date: January 1, 2024</p>
+                          <p>Time: 10:00 AM - 5:00 PM</p>
+                          <p>Venue: Event Venue</p>
+                        </div>
+                        <div style="margin: 20px;">
+                          <p style="font-size: x-large;">Teacher coordinator</p>
+                          <p class="">Teacher1</p>
+                          <p class="">Teacher2</p>
+                        </div>
+                        <div>
+                          <p style="font-size: x-large;">Student coordinator</p>
+                          <p class="">Student1 (phone no)</p>
+                          <p class="">Student2 (phone no)</p>
+                        </div>
+                        <div>
+                            <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                          </div>
+                      </div>
+                </div>
+            </article>
+          </div>
+
+          <!-- events19 -->
+          <div class="box glowing">
+            <article class="card">
+                <img
+                  class="card__background"
+                  src="https://picsum.photos/id/571/350/490";
+                  alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title">HackMaze</h2>
+                    <p class="card__description">
+                      Over a maze or grid problems to find out the best solutions  
+                    </p>
+                  </div>
+                  <button class="card__button">Read more</button>
+                </div>
+    
+                <div class="card__back">
+                  <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                  <!-- Content for the back of the card -->
+                    <div class="event">
+                        <h2>Event Heading</h2>
+                        <div class="details">
+                          <p>Date: January 1, 2024</p>
+                          <p>Time: 10:00 AM - 5:00 PM</p>
+                          <p>Venue: Event Venue</p>
+                        </div>
+                        <div style="margin: 20px;">
+                          <p style="font-size: x-large;">Teacher coordinator</p>
+                          <p class="">Teacher1</p>
+                          <p class="">Teacher2</p>
+                        </div>
+                        <div>
+                          <p style="font-size: x-large;">Student coordinator</p>
+                          <p class="">Student1 (phone no)</p>
+                          <p class="">Student2 (phone no)</p>
+                        </div>
+                        <div>
+                            <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                          </div>
+                      </div>
+                </div>
+            </article>
+          </div>
+
+          <!-- events20 -->
+          <div class="box glowing">
+            <article class="card">
+                <img
+                  class="card__background"
+                  src="https://picsum.photos/id/971/350/490";
+                  alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title" style="font-size: 33px;">Dare To Debug</h2>
+                    <p class="card__description">
+                      Code debug problems in terms of i> fastest ii> efficiency
+                    </p>
+                  </div>
+                  <button class="card__button">Read more</button>
+                </div>
+    
+                <div class="card__back">
+                  <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                  <!-- Content for the back of the card -->
+                    <div class="event">
+                        <h2>Event Heading</h2>
+                        <div class="details">
+                          <p>Date: January 1, 2024</p>
+                          <p>Time: 10:00 AM - 5:00 PM</p>
+                          <p>Venue: Event Venue</p>
+                        </div>
+                        <div style="margin: 20px;">
+                          <p style="font-size: x-large;">Teacher coordinator</p>
+                          <p class="">Teacher1</p>
+                          <p class="">Teacher2</p>
+                        </div>
+                        <div>
+                          <p style="font-size: x-large;">Student coordinator</p>
+                          <p class="">Student1 (phone no)</p>
+                          <p class="">Student2 (phone no)</p>
+                        </div>
+                        <div>
+                            <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                          </div>
+                      </div>
+                </div>
+            </article>
+          </div>
+
+          <!-- events21 -->
+          <div class="box glowing">
+            <article class="card">
+                <img
+                  class="card__background"
+                  src="https://picsum.photos/id/471/350/490";
+                  alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title" style="font-size: 33px;">Blind code</h2>
+                    <p class="card__description">
+                      Working on a code without running it. Based on DSA & Problem solving
+                    </p>
+                  </div>
+                  <button class="card__button">Read more</button>
+                </div>
+    
+                <div class="card__back">
+                  <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                  <!-- Content for the back of the card -->
+                    <div class="event">
+                        <h2>Event Heading</h2>
+                        <div class="details">
+                          <p>Date: January 1, 2024</p>
+                          <p>Time: 10:00 AM - 5:00 PM</p>
+                          <p>Venue: Event Venue</p>
+                        </div>
+                        <div style="margin: 20px;">
+                          <p style="font-size: x-large;">Teacher coordinator</p>
+                          <p class="">Teacher1</p>
+                          <p class="">Teacher2</p>
+                        </div>
+                        <div>
+                          <p style="font-size: x-large;">Student coordinator</p>
+                          <p class="">Student1 (phone no)</p>
+                          <p class="">Student2 (phone no)</p>
+                        </div>
+                        <div>
+                            <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                          </div>
+                      </div>
+                </div>
+            </article>
+          </div>
+
+          <!-- events22 -->
+          <div class="box glowing">
+            <article class="card">
+                <img
+                  class="card__background"
+                  src="https://picsum.photos/id/401/350/490";
+                  alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title" style="font-size: 33px;">System Design</h2>
+                    <p class="card__description">
+                      Puzzles of system architecture, components and interface
+                    </p>
+                  </div>
+                  <button class="card__button">Read more</button>
+                </div>
+    
+                <div class="card__back">
+                  <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                  <!-- Content for the back of the card -->
+                    <div class="event">
+                        <h2>Event Heading</h2>
+                        <div class="details">
+                          <p>Date: January 1, 2024</p>
+                          <p>Time: 10:00 AM - 5:00 PM</p>
+                          <p>Venue: Event Venue</p>
+                        </div>
+                        <div style="margin: 20px;">
+                          <p style="font-size: x-large;">Teacher coordinator</p>
+                          <p class="">Teacher1</p>
+                          <p class="">Teacher2</p>
+                        </div>
+                        <div>
+                          <p style="font-size: x-large;">Student coordinator</p>
+                          <p class="">Student1 (phone no)</p>
+                          <p class="">Student2 (phone no)</p>
+                        </div>
+                        <div>
+                            <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                          </div>
+                      </div>
+                </div>
+            </article>
+          </div>
+
+          <!-- events23 -->
+          <div class="box glowing">
+            <article class="card">
+                <img
+                  class="card__background"
+                  src="https://picsum.photos/id/407/350/490";
+                  alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title" style="font-size: 33px;">Graphic Design</h2>
+                    <p class="card__description">
+                      Computer graphics, 3D modelling, virtual reality etc
+                    </p>
+                  </div>
+                  <button class="card__button">Read more</button>
+                </div>
+    
+                <div class="card__back">
+                  <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                  <!-- Content for the back of the card -->
+                    <div class="event">
+                        <h2>Event Heading</h2>
+                        <div class="details">
+                          <p>Date: January 1, 2024</p>
+                          <p>Time: 10:00 AM - 5:00 PM</p>
+                          <p>Venue: Event Venue</p>
+                        </div>
+                        <div style="margin: 20px;">
+                          <p style="font-size: x-large;">Teacher coordinator</p>
+                          <p class="">Teacher1</p>
+                          <p class="">Teacher2</p>
+                        </div>
+                        <div>
+                          <p style="font-size: x-large;">Student coordinator</p>
+                          <p class="">Student1 (phone no)</p>
+                          <p class="">Student2 (phone no)</p>
+                        </div>
+                        <div>
+                            <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                          </div>
+                      </div>
+                </div>
+            </article>
+          </div>
+
+          <!-- events24 -->
+          <div class="box glowing">
+            <article class="card">
+                <img
+                  class="card__background"
+                  src="https://picsum.photos/id/451/350/490";
+                  alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title" style="font-size: 30px;">Language Identification</h2>
+                    <p class="card__description">
+                      Identify coding language from given codes/syntax
+                    </p>
+                  </div>
+                  <button class="card__button">Read more</button>
+                </div>
+    
+                <div class="card__back">
+                  <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                  <!-- Content for the back of the card -->
+                    <div class="event">
+                        <h2>Event Heading</h2>
+                        <div class="details">
+                          <p>Date: January 1, 2024</p>
+                          <p>Time: 10:00 AM - 5:00 PM</p>
+                          <p>Venue: Event Venue</p>
+                        </div>
+                        <div style="margin: 20px;">
+                          <p style="font-size: x-large;">Teacher coordinator</p>
+                          <p class="">Teacher1</p>
+                          <p class="">Teacher2</p>
+                        </div>
+                        <div>
+                          <p style="font-size: x-large;">Student coordinator</p>
+                          <p class="">Student1 (phone no)</p>
+                          <p class="">Student2 (phone no)</p>
+                        </div>
+                        <div>
+                            <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                          </div>
+                      </div>
+                </div>
+            </article>
+          </div>
+
+          <!-- events25 -->
+          <div class="box glowing">
+            <article class="card">
+                <img
+                  class="card__background"
+                  src="https://picsum.photos/id/451/350/490";
+                  alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title" style="font-size: 28px;">AutoCAD design contest </h2>
+                    <p class="card__description">
+                      Problems and puzzles on CAD drafting and design
+                    </p>
+                  </div>
+                  <button class="card__button">Read more</button>
+                </div>
+    
+                <div class="card__back">
+                  <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                  <!-- Content for the back of the card -->
+                    <div class="event">
+                        <h2>Event Heading</h2>
+                        <div class="details">
+                          <p>Date: January 1, 2024</p>
+                          <p>Time: 10:00 AM - 5:00 PM</p>
+                          <p>Venue: Event Venue</p>
+                        </div>
+                        <div style="margin: 20px;">
+                          <p style="font-size: x-large;">Teacher coordinator</p>
+                          <p class="">Teacher1</p>
+                          <p class="">Teacher2</p>
+                        </div>
+                        <div>
+                          <p style="font-size: x-large;">Student coordinator</p>
+                          <p class="">Student1 (phone no)</p>
+                          <p class="">Student2 (phone no)</p>
+                        </div>
+                        <div>
+                            <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                          </div>
+                      </div>
+                </div>
+            </article>
+          </div>
+
+          <!-- events26 -->
+          <div class="box glowing">
+            <article class="card">
+                <img
+                  class="card__background"
+                  src="https://picsum.photos/id/456/350/490";
+                  alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title" style="font-size: 23px;">Mechvation-Crafty Coterie & Puzzle quest </h2>
+                    <p class="card__description">
+                      Mechanical drawing and design contest & Mechanical puzzle and tricky problems
+                    </p>
+                  </div>
+                  <button class="card__button">Read more</button>
+                </div>
+    
+                <div class="card__back">
+                  <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                  <!-- Content for the back of the card -->
+                    <div class="event">
+                        <h2>Event Heading</h2>
+                        <div class="details">
+                          <p>Date: January 1, 2024</p>
+                          <p>Time: 10:00 AM - 5:00 PM</p>
+                          <p>Venue: Event Venue</p>
+                        </div>
+                        <div style="margin: 20px;">
+                          <p style="font-size: x-large;">Teacher coordinator</p>
+                          <p class="">Teacher1</p>
+                          <p class="">Teacher2</p>
+                        </div>
+                        <div>
+                          <p style="font-size: x-large;">Student coordinator</p>
+                          <p class="">Student1 (phone no)</p>
+                          <p class="">Student2 (phone no)</p>
+                        </div>
+                        <div>
+                            <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                          </div>
+                      </div>
+                </div>
+            </article>
+          </div>
+
+          <!-- events26 -->
+          <div class="box glowing">
+            <article class="card">
+                <img
+                  class="card__background"
+                  src="https://picsum.photos/id/453/350/490";
+                  alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title" style="font-size: 23px;">Brug It </h2>
+                    <p class="card__description">
+                      Structural design and drawing contest
+                    </p>
+                  </div>
+                  <button class="card__button">Read more</button>
+                </div>
+    
+                <div class="card__back">
+                  <i class="fa-solid fa-xmark fa-2xl cross" style="color: rgb(144, 197, 244);" onclick=flip()></i>
+                  <!-- Content for the back of the card -->
+                    <div class="event">
+                        <h2>Event Heading</h2>
+                        <div class="details">
+                          <p>Date: January 1, 2024</p>
+                          <p>Time: 10:00 AM - 5:00 PM</p>
+                          <p>Venue: Event Venue</p>
+                        </div>
+                        <div style="margin: 20px;">
+                          <p style="font-size: x-large;">Teacher coordinator</p>
+                          <p class="">Teacher1</p>
+                          <p class="">Teacher2</p>
+                        </div>
+                        <div>
+                          <p style="font-size: x-large;">Student coordinator</p>
+                          <p class="">Student1 (phone no)</p>
+                          <p class="">Student2 (phone no)</p>
+                        </div>
+                        <div>
+                            <p style="font-size: x-large; margin-top: 20px;">Held by: XYZ deparment</p>
+                          </div>
+                      </div>
+                </div>
+            </article>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    
+      
+</body>
+<script>
+    const cards = [...document.getElementsByClassName('card')];
+
+    const crosses = [...document.getElementsByClassName('cross')];
+    
+    // console.log(crosses.length)
+    
+    crosses.forEach(cross => {
+      cross.addEventListener('click', function() {
+        // Identify which 'cross' element was clicked
+        const clickedCross = this; // 'this' refers to the clicked element
+        
+        // Perform actions or checks for the clicked 'cross' element
+        // For instance, you can add classes, change styles, or perform other operations.
+        const closestCard = clickedCross.closest('.card');
+        flip(closestCard);
+        
+      });
+    });
+
+    crosses.forEach(cross=>{
+      const card = cross.closest('.cross');
+      if (card.classList.contains('flipped')) {
+        card.classList.remove('flipped');
+      }
+    })
+
+    function flip(card) {
+      if (card && card.classList.contains('flipped')) {
+        card.classList.remove('flipped');
+      }
+    }
+
+    cards.forEach(card => {
+        const button = card.querySelector('.card__button');
+        button.addEventListener('click', function () {
+        card.classList.toggle('flipped');
+        });
+
+        function flip() {
+          // console.log('fun call')
+          if (card.classList.contains('flipped')) {
+              card.classList.remove('flipped');
+          }
+        }
+        card.addEventListener('mouseleave', flip);
+    });
+
+
+    // script for navbar open
+    const toggleBtn=document.querySelector('.toggle-btn');
+     const toggleBtnIcon=document.querySelector('.toggle-btn i');
+     const dropDownMenu=document.querySelector('.dropdown-menu');
+     
+     toggleBtn.onclick=function(){
+       dropDownMenu.classList.toggle('open');
+       const isOpen=dropDownMenu.classList.contains('open');
+
+       toggleBtnIcon.classList=isOpen
+       ?'fa-solid fa-xmark'
+       :'fa-solid fa-bars'
+    }
+
+</script>
+</html>
