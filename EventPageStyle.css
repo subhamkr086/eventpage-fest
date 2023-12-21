@@ -484,7 +484,8 @@ header{
 
 /* main-grid design */
 .main-wrapper{
-  padding: 7rem 5%;
+  padding-inline: 5%;
+  padding-top: 7rem;
   backdrop-filter: blur(5px);
 }
 
@@ -494,3 +495,45 @@ header{
   cursor: pointer;
 }
 
+/* Footer */
+
+
+
+footer {
+
+
+  background: #111;
+
+  height: auto;
+
+  width: 100%;
+
+  margin-top: 20px;
+
+  color: #fff;
+}
+
+.footer-bottom {
+  background: #000;
+
+  width: 100%;
+
+  text-align: center;
+}
+
+.footer-bottom p a {
+  color: #ccc;
+
+  font-size: 16px;
+
+  text-decoration: none;
+}
+
+
+@media (max-width: 500px) {
+  .footer-bottom p {
+    float: none;
+  }
+}
+
+/* footer end */
